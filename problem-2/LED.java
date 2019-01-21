@@ -100,6 +100,21 @@ public class LED
     public double getBlue(){
         return blue;
     }
+
+    /**
+     * Method to change the brightness of the LED.
+     *
+     * Multiplies all values (red, green, and blue) by brightnessFactor.
+     * That is, passing brightnessFactor=2 will double the percentages 
+     * of red, green, and blue.
+     *
+     * @param brightnessFactor Factor to multiply all LED brightnesses by.
+     */
+    public void changeBrightness(double brightnessFactor){
+        red   *= brightnessFactor;
+        green *= brightnessFactor;
+        blue  *= brightnessFactor;
+    }
     
     /**
      * Information print method
