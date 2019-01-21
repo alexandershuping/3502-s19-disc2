@@ -48,9 +48,9 @@ public class LED
     /**
      * Initialization constructor
      *
-     * @param red Holds the percentage of red in the LED
-     * @param green Holds the percentage of green in the LED
-     * @param blue Holds the percentage of blue in the LED
+     * @param newRed Holds the percentage of red in the LED
+     * @param newGreen Holds the percentage of green in the LED
+     * @param newBlue Holds the percentage of blue in the LED
      */
     public LED(double newRed, double newGreen, double newBlue){
             red = newRed;
@@ -66,9 +66,9 @@ public class LED
      * properties in a class, you still need to make individual methods 
      * for each - i.e. DO NOT combine them all into one.
      *
-     * @param newRed Holds the new red percentage
-     * @param newGreen Holds the new green percentage
-     * @param newBlue Holds the new blue percentage
+     * @param red Holds the new red percentage
+     * @param green Holds the new green percentage
+     * @param blue Holds the new blue percentage
      */
     public void setColor(double red, double green, double blue){
         red = this.red;
