@@ -114,6 +114,20 @@ public class LED
         red   *= brightnessFactor;
         green *= brightnessFactor;
         blue  *= brightnessFactor;
+        // TODO: right now, this can easily make red, green, or blue go
+        //       above 1, when we don't intend to. Once we know how to
+        //       use conditionals, we will fix this.
+    }
+
+    /**
+     * Get the average brightness of the RGB LED.
+     * 
+     * Calculates and returns the average of red, green, and blue.
+     *
+     * @return The average of red, green, and blue.
+     */
+    public double getAverageBrightness(){
+        return (red + green + blue) / 3;
     }
     
     /**
