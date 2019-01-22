@@ -201,7 +201,7 @@ public class LED
            + "Actual  : " + m.toString()
         );
 
-        if(m.toString().equals("LED with red=0.25, green=0.95, blue=0.60")){
+        if(m.toString().equals("LED with red=0.25, green=0.95, blue=0.6")){
             System.out.println("\tLooks like everything's good!");
         }else{
             System.out.println("\tOH NO! They don't match!");
