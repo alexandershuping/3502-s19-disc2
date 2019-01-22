@@ -197,7 +197,7 @@ public class LED
         m.setColor(0.25, 0.95, 0.60); // Set color to sea-foam green
 
         System.out.println("Using setColor() to change the values.\n"
-           + "Expected: " + "LED with red=0.25, green=0.95, blue=0.60" + "\n"
+           + "Expected: " + "LED with red=0.25, green=0.95, blue=0.6" + "\n"
            + "Actual  : " + m.toString()
         );
 
