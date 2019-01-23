@@ -1,0 +1,34 @@
+Problem 1
+[a]: What is the signature of the following method:
+
+public int addPotatoes(int potatoesToAdd){
+  this.potatoes += potatoesToAdd;
+  return this.potatoes;
+}
+
+
+[b]: What would change about this method if I replaced both instances of
+     `this.potatoes` with `potatoes` (assuming that `potatoes` is a
+     property of the class in which `addPotatoes` is defined)?
+
+
+[c]: Consider the following method:
+
+public boolean tomatoThePotatoes(int tomatoes){
+  boolean myPotatoes = (potatoes > 3 || --potatoes == 0) 
+                       && !(potatoes != 1 && false);
+
+  myPotatoes &= (tomatoes == potatoes);
+  return myPotatoes;
+}
+
+Assume that this method is part of a class called `PotatoBasket`, which
+has a property `potatoes`, a default constructor, and an initialization
+constructor. The following code is run:
+
+  PotatoBasket thePotatoes = new PotatoBasket(4);
+  boolean didItWork = thePotatoes.tomatoThePotatoes(4);
+  didItWork = thePotatoes.tomatoThePotatoes(4);
+
+What is the value of didItWork after the second line? The third line?
+If they are different, why?
