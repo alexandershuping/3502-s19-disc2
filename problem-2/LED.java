@@ -1,18 +1,22 @@
 /**
  * Holds values for an RGB LED.
  *
+ * <p>
  * RGB LEDs are actually made up of three separate LEDs - one red, one green,
  * and one blue. By setting these LEDs to different brightnesses, we can make
  * any color we want! This class represents an RGB LED, holding a value for
  * the brightness (0.0 for 0 percent brightness, 1.0 for 100% brightness) of
  * each individual LED.
+ * </p>
  *
+ * <p><pre>
  * Here are some example values, with the colors they correspond to:
  *     red=0.00, green=0.00, blue=1.00 - bright blue
  *     red=0.80, green=0.00, blue=0.80 - bright violet
  *     red=0.50, green=0.00, blue=0.80 - a blue-ish purple
  *     red=0.25, green=0.95, blue=0.60 - a sea-foam green
  *     red=1.00, green=1.00, blue=1.00 - bright white
+ * </pre></p>
  *
  * @author Gorbert Bordinton III, esq.
  * @version 1.0
